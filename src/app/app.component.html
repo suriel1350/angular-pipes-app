@@ -7,4 +7,13 @@
 
 <button pButton 
         (click)="mostrarNombre()"
+        icon="pi pi-bell"
+        iconPos="right"
+        class="p-button-help"
         label="Cambiar Nombre"></button>
+
+<p-card [header]="nombre | titlecase"
+        subheader="Esto es un subheader">
+  Content
+</p-card>
+
