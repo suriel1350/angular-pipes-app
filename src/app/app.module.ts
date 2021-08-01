@@ -8,8 +8,10 @@ import { SharedModule } from './shared/shared.module';
 import { VentasModule } from './ventas/ventas.module';
 
 import localeEs from '@angular/common/locales/es-MX';
+import localeFr from '@angular/common/locales/fr';
 import { registerLocaleData } from '@angular/common';
 registerLocaleData( localeEs );
+registerLocaleData( localeFr );
 
 @NgModule({
   declarations: [
