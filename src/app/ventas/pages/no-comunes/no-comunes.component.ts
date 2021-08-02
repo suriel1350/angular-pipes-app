@@ -40,4 +40,20 @@ export class NoComunesComponent {
     direccion: 'Lost, Direction'
   }
 
+  // JsonPipe
+  heroes = [
+    {
+      nombre: 'Superman',
+      vuela: true
+    },
+    {
+      nombre: 'Robin',
+      vuela: false
+    },
+    {
+      nombre: 'Aquaman',
+      vuela: false
+    }
+  ]
+
 }
