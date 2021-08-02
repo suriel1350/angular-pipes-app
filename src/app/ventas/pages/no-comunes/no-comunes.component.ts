@@ -33,4 +33,11 @@ export class NoComunesComponent {
     this.clientes.pop();
   }
 
+  // KeyValue Pipe
+  persona = {
+    nombre: 'Suriel',
+    edad: 26,
+    direccion: 'Lost, Direction'
+  }
+
 }
