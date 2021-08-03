@@ -8,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OrdenarComponent implements OnInit {
 
+  hello: string = "jdjn";
+
   constructor() { }
 
   ngOnInit(): void {
